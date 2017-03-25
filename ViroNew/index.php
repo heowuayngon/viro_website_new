@@ -16,14 +16,15 @@
                         <h1 class="deepshadow  text-center">NEWS</h1>
                         <a href="#" class="tilter tilter--1">
                             <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-                                <img class="tilter__image" src="assets/img/Category/DailyNews1.png" alt="img01">
+                                <img class="tilter__image" src="assets/img/Category/dailynew.jpg" alt="img01">
                                 <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
                                 <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-                                    <!--<h3 class="tilter__title">Tanya Bondesta</h3>-->
+                                    <img class="" src="assets/img/Category/dailynew_icon.png" />
+                                    <h3 class="tilter__title">Daily News</h3>
                                     <!--<p class="tilter__description">Toronto</p>-->
                                 </figcaption>
                                 <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-                                <path d="M-50,20h680v375h-960V20.5z"></path>
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
                                 </svg>
                             </figure>
                         </a>
