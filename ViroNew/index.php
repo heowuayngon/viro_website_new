@@ -6,14 +6,11 @@
         <div class="section" id="main-category">
             <div class="container">
                 
-                
-                
-                
-                
+
                 <main>
                     <section class="content content--c1">
                     <div class="col-lg-3">
-                        <h1 class="deepshadow  text-center">NEWS</h1>
+                        <h1 class="elegantshadow  text-center">NEWS</h1>
                         <a href="#" class="tilter tilter--1">
                             <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
                                 <img class="tilter__image" src="assets/img/Category/dailynew.jpg" alt="img01">
@@ -29,94 +26,351 @@
                             </figure>
                         </a>
                         
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/banking_finance.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/banking_finance_icon.png" />
+                                    <h3 class="tilter__title">Banking / Finance</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
                         
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/DailyNews1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/BrandByCeleb.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/CorporateSME1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/MedicalPharma1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/LogisticNews1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/CelebNews1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/corporate.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/corporate_icon.png" />
+                                    <h3 class="tilter__title">Corporate / SME</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        
+                        
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/medical_pharma.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/medical_pharma_icon.png" />
+                                    <h3 class="tilter__title">Medical / Pharma</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        
+                        
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/logistic.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/logistic_icon.png" />
+                                    <h3 class="tilter__title">Logistic</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/celebrities.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/celebrities_icon.png" />
+                                    <h3 class="tilter__title">Celeb News</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        
+                        
                     </div>
 
                     <div class="col-lg-3">
                         <h1 class="elegantshadow text-center">EVENT</h1>
                         <!--<button class="btn btn-primary btn-block">Events<div class="ripple-container"></div></button>-->
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/BankingFinance1.png" class="img-rounded img-responsive img-raised" />
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/banking_finance.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/banking_finance_icon.png" />
+                                    <h3 class="tilter__title">Banking / Finance</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/crowdfunding.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/crowdfunding_icon.png" />
+                                    <h3 class="tilter__title">Crowdfunding</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/charity.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/charity_icon.png" />
+                                    <h3 class="tilter__title">Charity / Donation</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/concert_musical.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/concert_musical_icon.png" />
+                                    <h3 class="tilter__title">Concert / Mtusical</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
                         </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/Crowdfunding.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/CharityDonation1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/ConcertMusic1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/GolfSport1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/SeminarWorkshop1.png" class="img-rounded img-responsive img-raised" />
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/golf_sport.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/golf_sport_icon.png" />
+                                    <h3 class="tilter__title">Golf / Sports</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/workshop_seminars.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/workshop_seminars_icon.png" />
+                                    <h3 class="tilter__title">Workshop / Seminars</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
                         </a> 
                     </div>
 
                     <div class="col-lg-3">
                         <h1 class="elegantshadow text-center">PROMO</h1>
                         <!--<button class="btn btn-info btn-block">Promo<div class="ripple-container"></div></button>-->
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/CelebNews1.png" class="img-rounded img-responsive img-raised" />
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/celebrities.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/celebrities_icon.png" />
+                                    <h3 class="tilter__title">Celebrities</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/shopping.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/shopping_icon.png" />
+                                    <h3 class="tilter__title">Shopping</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/food_drink.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/food_drink_icon.png" />
+                                    <h3 class="tilter__title">Food & Drinks</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/halal.png" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/halal_icon.png" />
+                                    <h3 class="tilter__title">Halal</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
                         </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/DailyNews1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/DailyNews1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/HalalServices1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/PubBar1.png" class="img-rounded img-responsive img-raised" />
-                        </a> 
-                        <a href="" target="_blank">
-                            <img src="assets/img/Category/University1.png" class="img-rounded img-responsive img-raised" />
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/pub_bar.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/pub_bar_icon.png" />
+                                    <h3 class="tilter__title">Pub / Bar</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
+                        </a>
+                        <a href="#" class="tilter tilter--1">
+                            <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="tilter__image" src="assets/img/Category/university_college.jpg" alt="img01">
+                                <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                                <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                    <img class="" src="assets/img/Category/university_college_icon.png" />
+                                    <h3 class="tilter__title">University / College</h3>
+                                    <!--<p class="tilter__description">Toronto</p>-->
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                                </svg>
+                            </figure>
                         </a> 
                     </div>
 
                     <div class="col-lg-3">
-                    <h1 class="deepshadow text-center">SERVICES</h1>
+                    <h1 class="elegantshadow text-center">SERVICES</h1>
                     <!--<button class="btn btn-success btn-block">Services<div class="ripple-container"></div></button>-->
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/CelebNews1.png" class="img-rounded img-responsive img-raised" />
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/celebrities.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/celebrities_icon.png" />
+                                <h3 class="tilter__title">Celebrities Services</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
+                    </a>
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/model_services.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/model_services_icon.png" />
+                                <h3 class="tilter__title">Model Services</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
+                    </a>
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/celebrities_services.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/celebrities_services_icon.png" />
+                                <h3 class="tilter__title">Celebrities Services</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
+                    </a>
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/tuition_class.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/tuition_class_icon.png" />
+                                <h3 class="tilter__title">Tuition Class</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
+                    </a>
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/office_rental.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/office_rental_icon.png" />
+                                <h3 class="tilter__title">Office Rental</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
                     </a> 
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/ModelServices1.png" class="img-rounded img-responsive img-raised" />
-                    </a> 
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/CelebNews1.png" class="img-rounded img-responsive img-raised" />
-                    </a> 
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/Tuition1.png" class="img-rounded img-responsive img-raised" />
-                    </a> 
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/OfficeRental1.png" class="img-rounded img-responsive img-raised" />
-                    </a> 
-                    <a href="" target="_blank">
-                        <img src="assets/img/Category/HomeRental1.png" class="img-rounded img-responsive img-raised" />
-                    </a> 
+                    <a href="#" class="tilter tilter--1">
+                        <figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <img class="tilter__image" src="assets/img/Category/home_rental.jpg" alt="img01">
+                            <div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
+                            <figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                                <img class="" src="assets/img/Category/home_rental_icon.png" />
+                                <h3 class="tilter__title">Home Rental</h3>
+                                <!--<p class="tilter__description">Toronto</p>-->
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+                            <!--<path d="M-50,20h680v375h-960V20.5z"></path>-->
+                            </svg>
+                        </figure>
+                    </a>
                 </div>
                     </section>
                 </main>

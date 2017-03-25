@@ -67,6 +67,12 @@
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+    
+    /***********************
+    * HOVER
+    **********************/
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
 }
 
 .tilter__deco--overlay {
@@ -93,13 +99,15 @@
 	bottom: 0;
 	width: 100%;
 	/*padding: 4em;*/
+    z-index: 1;
 }
 
 .tilter__title {
 	margin: 0;
 	font-weight: normal;
-	font-size: 2.5em;
-	font-family: 'Abril Fatface', serif;
+	font-size: 1.5em;
+	/*font-family: 'Abril Fatface', serif;*/
+    margin-bottom: 10px;
 	line-height: 1;
 }
 
