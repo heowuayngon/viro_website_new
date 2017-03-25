@@ -3538,6 +3538,21 @@ h2.title {
 
   .main-raised {
     margin-left: 10px;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+
+  #mygetApp .modal-content .modal-body .content_getapp p {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 0px; }
+  #mygetApp .modal-content .modal-body .download-btn a {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px; }
+    #mygetApp .modal-content .modal-body .download-btn a img {
+      width: 90px; }
+
+  .navbar .navbar-nav > li > a.btn-get-app {
+    margin-right: 20px !important; } }
 
 /*# sourceMappingURL=material-kit.css.map */
