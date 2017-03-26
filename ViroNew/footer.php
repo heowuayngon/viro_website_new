@@ -123,7 +123,8 @@
                         <div class="col-xs-6">
                             <div class="block wow fadeInRight animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInRight;">
                                 <div class="content_getapp">
-                                    <p>Viro Job, Internship, Part-Time, Full-Time App is a platform where you can <i>earn</i> money by <i>sharing</i> your job offer to their social media network.<br>
+                                    <p>Download <b>Viroapp</b> for latest <i>News</i>, <i>Events</i>, <i>Promotions</i> and <i>Services</i>.<br>
+                                        You can post and share your business' <i>news</i>, <i>events</i>, <i>promotion and services</i> into our categories. <br>
                                     </p>
                                 </div>
                                 <br>

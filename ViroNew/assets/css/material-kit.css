@@ -3517,8 +3517,8 @@ h2.title {
       margin-right: 10px; }
 
 .logo-container .logo {
-  width: 55px;
-  margin-top: 0px !important; }
+  width: 70px;
+  margin-top: -10px !important; }
 
 @media (max-width: 991px) {
   .landing-page .header {

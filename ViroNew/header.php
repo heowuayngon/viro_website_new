@@ -9,7 +9,7 @@
 	<title>Viro</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
+    <meta name="description" content="Download viroapp for latest News, Events, Promotions and Services. You can post and share your business' news, events, promotion and services into our categories. ">
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
@@ -52,7 +52,7 @@
                 <a href="index.php">
                     <div class="logo-container">
                         <div class="logo">
-                            <img src="assets/img/icon96.png" alt="Creative Tim Logo" >
+                            <img src="assets/img/viroapp-black.png" alt="Creative Tim Logo" >
                         </div>
                     </div>
                 </a>
