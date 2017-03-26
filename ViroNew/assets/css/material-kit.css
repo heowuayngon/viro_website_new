@@ -3559,6 +3559,29 @@ h2.title {
       width: 90px; }
 
   .navbar .navbar-nav > li > a.btn-get-app {
-    margin-right: 20px !important; } }
+    margin-right: 20px !important; }
+
+  .price_table {
+    width: 100% !important; }
+
+  .price_table .column_1 {
+    float: none;
+    display: table;
+    margin: auto;
+    margin-bottom: 20px; }
+
+  #home-block1.price_viro {
+    height: auto !important; }
+
+  .viro_block1_text {
+    margin-top: 150px; }
+    .viro_block1_text p {
+      font-size: 20px; }
+
+  .wrap_btn_viro a.btn-viro {
+    font-size: 12px; }
+
+  .page-register {
+    height: auto !important; } }
 
 /*# sourceMappingURL=material-kit.css.map */
