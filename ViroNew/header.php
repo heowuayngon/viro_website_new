@@ -52,7 +52,7 @@
                 <a href="index.php">
                     <div class="logo-container">
                         <div class="logo">
-                            <img src="assets/img/ico_viro_black.png" alt="Creative Tim Logo" >
+                            <img src="assets/img/icon96.png" alt="Creative Tim Logo" >
                         </div>
                     </div>
                 </a>
@@ -66,7 +66,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="press.php">
                             Press
                         </a>
                     </li>

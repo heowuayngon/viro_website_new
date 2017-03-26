@@ -3157,15 +3157,17 @@ h2.title {
 ***********************************/
 .team-member {
   text-align: center;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
   .team-member img {
     margin: 0 auto;
     border: 7px solid #fff; }
   .team-member h4 {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0;
     text-transform: none;
     font-weight: 700; }
+  .team-member .social-buttons a {
+    color: #fcc300; }
 
 .full-map .overlay {
   background: rgba(252, 195, 0, 0.14);
@@ -3513,6 +3515,10 @@ h2.title {
       margin-bottom: 30px; }
     #mygetApp .modal-content .modal-body .download-btn a {
       margin-right: 10px; }
+
+.logo-container .logo {
+  width: 55px;
+  margin-top: 0px !important; }
 
 @media (max-width: 991px) {
   .landing-page .header {

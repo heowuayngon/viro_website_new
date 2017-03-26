@@ -5,7 +5,7 @@
                 <nav class="col-lg-4">
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="press.php">
                                 Press
                             </a>
                         </li>
