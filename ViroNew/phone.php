@@ -4,6 +4,6 @@
     if (md.os() == 'AndroidOS') {
         window.location = "https://play.google.com/store/apps/details?id=com.viro.viroapp.com";
     }else{
-        window.location = "https://appsto.re/sg/4N7xdb.i";
+        window.location = "https://itunes.apple.com/az/app/viro-app-viral-your-product/id1130347000?mt=8" ;
     }
 </script>
