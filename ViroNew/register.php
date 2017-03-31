@@ -1,4 +1,6 @@
 <?php
+define('VIRO_ACCOUNT_KIT_REGISTER_API', 'http://digital.sembangchat.com/api/user/login/sms');
+
 // function to verify session status
 function is_session_started() {
     if (php_sapi_name() !== 'cli') {
@@ -11,30 +13,9 @@ function is_session_started() {
     return FALSE;
 }
 
-$api_url = 'https://api.viroapp.com/';
-//        $api_url = 'https://digital.sembangchat.com/';
-if(isset($_GET['referrer_code']))
-{
-    $user_name_url = $api_url.'/api/user/display-name/%s';
-    $user_name = file_get_contents(sprintf($user_name_url, $_GET['referrer_code']));
-}
-
 // verifying POST data and adding the values to session variables
 if (isset($_POST["code"])) {
     try {
-        #live
-        $home = 'https://viroapp.com/';
-        $welcome_page = 'https://viroapp.com/welcome';
-        $url = $api_url.'api/user/login/sms';
-        $fb_app_id = '737451986357659';
-        $ak_secret = '1c03dca3d0b4827f43d94e1afb81bd41';
-        
-//        #dev
-//        $home = 'http://viro.uas.sg.com/';
-//        $home = 'http://viro.uas.sg.com/welcome';
-//        $url = $api_url.'api/user/login/sms';
-//        $fb_app_id = '1609896245963521';
-//        $ak_secret = 'fd94dd455a5b2232ae8b99d7c6bb1409';
 
         session_start();
         $_SESSION["code"] = $_POST["code"];
@@ -43,14 +24,17 @@ if (isset($_POST["code"])) {
         // Set url elements
 //        $fb_app_id = '161126540969132';
 //        $ak_secret = 'a841e84ea91154acbbff72e8b1dd5524';
+        $fb_app_id = '1609896245963521';
+        $ak_secret = 'fd94dd455a5b2232ae8b99d7c6bb1409';
         $token = 'AA|' . $fb_app_id . '|' . $ak_secret;
         // Get access token
+        $url = 'https://graph.accountkit.com/v1.0/access_token?grant_type=authorization_code&code=' . $_POST["code"] . '&access_token=' . $token;
 
         $postData = array(
             'facebook_auth_token' => $_POST["code"],
-            'device_type' => "0",
-            'referrer_code' => $_GET['referrer_code']
+            'device_type' => "0"
         );
+        $url = 'http://digital.sembangchat.com/api/user/login/sms';
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -59,7 +43,6 @@ if (isset($_POST["code"])) {
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         $result = curl_exec($ch);
         curl_close($ch);
-        
 //        echo '<pre>';
 //        print_r($result);
     } catch (Exception $ex) {
@@ -67,20 +50,78 @@ if (isset($_POST["code"])) {
     }
 }
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viro</title>   
+        <meta charset="utf-8">
+        <meta name="description" content="Viro Job, Internship, Part-Time, Full-Time App is a platform where you can earn money by sharing your job offer to their social media network.">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS
+  ================================================== -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!--        <link rel="stylesheet" href="css/chosen.css">-->
+        <!--        <link rel="stylesheet" href="css/jquery.bxslider.css">-->
+        <!--        <link rel="stylesheet" href="css/flexslider.css">-->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!--<link rel="stylesheet" href="css/jscrollpane.css">-->
+        <!--        <link rel="stylesheet" href="css/jslider.css">-->
+        <!--<link rel="stylesheet" href="css/style-page.css">-->
 
-<?php require_once './header.php'; ?>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/custom-style.css">
+        <!--<link rel="stylesheet" href="css/animate.css"  type="text/css" />-->
 
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>-->            
+        <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+        <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+        <!-- FONTS
+  ================================================== -->
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>-->
+        <!--+++++++++++++++++OWL CAROUSEL+++++++++++++++++++++ -->
+
+        <!--<link href="./owl-carousel/owl.carousel.css" rel="stylesheet">-->
+        <!--<link href="./owl-carousel/owl.theme.css" rel="stylesheet">-->
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <script src="./js/jquery-1.9.1.min.js"></script> 
+
+        <!-- HTTPS required. HTTP will give a 403 forbidden response -->
+        <script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
+        <script type="text/javascript">
+            (function () {
+                var link_element = document.createElement("link"),
+                        s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
+    </head>
+    <body>
         <form action="" method="POST" id="my_form">
             <input type="hidden" name="code" id="code">
             <input type="hidden" name="csrf_nonce" id="csrf_nonce">
         </form>
+
         <script type="text/javascript">
             // initialize Account Kit with CSRF protection
             AccountKit_OnInteractive = function () {
                 AccountKit.init(
                         {
-//                            appId: '1609896245963521', //dev
-                            appId: '737451986357659',
+                            appId: '1609896245963521',
                             state: "adsfds",
                             version: "v1.0"
                         }
@@ -121,101 +162,81 @@ if (isset($_POST["code"])) {
         </script>
 
 
+
+        <header>
+            <div class="container clearfix">
+                <h1><a href="index.html"><img src="images/ico_viro_black.png" alt="img" id="logo"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a class="" href="index.php">Home</a></li>
+                        <li><a href="employer-advertiser.php">Employer/ Advertiser</a></li>
+<!--                        <li class="dropdown"><a class="disabled">Services</a>
+                            <ul class="sub_menu">
+                                <li><a href="#home-block2" >Viral Your Products/Services</a></li>
+                                <li><a href="#home-block3">Retail Outlet Sales Alerts</a></li>
+                                <li><a href="#home-block4">Hire University Interns</a></li>
+                                <li><a href="#home-block5">Business Chat Customer Service</a></li>
+                            </ul>
+                        </li>-->
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <!--<li><a href="register.php" class="fancybox btn_signup">SIGN UP</a></li>-->
+                        <li><a href="javascript:void(0)" class="fancybox btn_get_app">GET THE APP</a></li>
+                    </ul>
+                </nav>
+                <a class="menu-btn"></a>
+            </div>
+        </header>
+
+
         <div id="wrapper" class="wrap_home register">
-            <section class="heading page-register" id="home-block1">
+            <section class="heading" id="home-block1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-6 center center1">
+                        <div class="col-lg-6 col-xs-5 center center1">
                             <div class="viro_image1">
-                                <img class="img-responsive" src="assets/img/iPhone-5C-Multicolors-Mock-up.png" alt="img" >
+                                <img class="img-responsive" src="images/iPhone-5C-Multicolors-Mock-up.png" alt="img" >
                             </div>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-lg-6 col-xs-7">
                             <div class="viro_block1_text">
-                                <p>Viro Job, Internship, Part-Time, Full-Time App is a platform where you can <i>earn</i> money by <i>sharing</i> your job offer to their social media network.<br/>
-                                    <?php if((string)@$user_name != ''):?>
-                                        <span style="font-weight: bold; font-size: 12px">Your Affiliate Sponsor: <?php echo @$user_name?></span>
-                                    <?php endif;?>
+                                <p>Our app users <i>share</i> your products/services to their <i>social media</i>, increasing the <i>exposure</i>
+                                    and <i>outreach</i> of your products/ services
                                 </p>
+                                
+                                
                                 <div class="wrap_btn_viro">
                                     <?php if (isset($result)): ?>
-                                    <script>
-                                        window.location.replace('<?php echo $welcome_page?>');
-                                    </script>
+                                        <a class="btn btn-viro" onclick="phone_btn_onclick()">SUCCESS</a>
                                     <?php else: ?>
                                         <a class="btn btn-viro" onclick="phone_btn_onclick()">JOIN VIRO TODAY</a>
                                     <?php endif; ?>
                                 </div>
                             </div>
-                            
+
+
+
+
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-
-        
-        
-        
-        
-        <!-- Sart Modal -->
-        <div class="modal fade" id="mygetApp" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-body">
-
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="app-showcase wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-                                    <img src="assets/img/iphone.png" alt="">
-                                </div>
-
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="block wow fadeInRight animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInRight;">
-                                    <div class="content_getapp">
-                                        <p>Viro Job, Internship, Part-Time, Full-Time App is a platform where you can <i>earn</i> money by <i>sharing</i> your job offer to their social media network.<br>
-                                        </p>
-                                    </div>
-                                    <br>
-                                    <div class="download-btn">
-                                        <a href="https://play.google.com/store/apps/details?id=com.viro.viroapp.com" target="_blank" class="andriod">
-                                            <img src="assets/img/andriod-button.png" alt="">
-                                        </a>
-                                        <a href="https://itunes.apple.com/az/app/viro-app-viral-your-product/id1130347000?mt=8" target="_blank" class="apple">
-                                            <img src="assets/img/apple-button.png" alt="">
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--  End Modal -->
-
-        
-        
-        <?php
-        $ref = @$_GET['referrer_code'];
-        ?>
-        <!-- HTTPS required. HTTP will give a 403 forbidden response -->
-        <script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
-        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="assets/js/material.min.js"></script>
-        
-        
-    <?php if((string)$ref != ''):?>   
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $.cookie('ref_code', '<?php echo $ref?>', { path: '/' });
-                $('#register-btn').attr('href', $('#register-btn').attr('href') + '/'+$.cookie('ref_code'));
-            })
-        </script>
-    <?php endif;?>
+        <script src="js/blur.js"></script>
+        <script src="js/chosen.jquery.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/prettyCheckbox.js"></script>
+        <!--<script src="js/infinitescroll.js"></script>-->
+        <!--<script src="js/TweenMax.min.js"></script>-->
+        <!--<script src="js/jquery.scrollmagic.min.js"></script>-->
+        <!--<script src="js/jquery.knob.js"></script>-->
+        <!--<script src="js/jquery.fileupload.js"></script>-->
+        <!--<script src="js/upload.js"></script>-->
+        <!--<script src="js/range-slider.js"></script>-->
+        <!--<script src="js/jquery.downCount.js"></script>-->
+        <script src="js/animations.js"></script>
+        <script src="js/yappie.js"></script>
+        <script src="js/my-custom.js"></script>
     </body>
 </html>

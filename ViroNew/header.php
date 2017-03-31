@@ -1,3 +1,4 @@
+<?php $base_url =  "https://" . $_SERVER['SERVER_NAME'] . "/vus/viro_website_new/ViroNew/"; ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,22 +17,22 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link href="<?php echo $base_url; ?>assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php echo $base_url; ?>assets/css/material-kit.css" rel="stylesheet"/>
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
-    <script src="assets/js/modernizr.custom.97074.js"></script>
+	<link href="<?php echo $base_url; ?>assets/css/demo.css" rel="stylesheet" />
+    <script src="<?php echo $base_url; ?>assets/js/modernizr.custom.97074.js"></script>
     <script src="https://www.w3schools.com/lib/w3data.js"></script>
     
     <!--   Core JS Files   -->
-    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="<?php echo $base_url; ?>assets/js/jquery.min.js" type="text/javascript"></script>
     
     
-        <link rel="stylesheet" type="text/css" href="assets/css/tilthover/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/tilthover/demo.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/tilthover/pater.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/tilthover/component.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/tilthover/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/tilthover/demo.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/tilthover/pater.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/tilthover/component.css" />
         <script>
             document.documentElement.className = 'js';
         </script>
@@ -52,7 +53,7 @@
                 <a href="index.php">
                     <div class="logo-container">
                         <div class="logo">
-                            <img src="assets/img/viroapp-black.png" alt="Creative Tim Logo" >
+                            <img src="<?php echo $base_url; ?>assets/img/viroapp-black.png" alt="Creative Tim Logo" >
                         </div>
                     </div>
                 </a>
@@ -61,27 +62,27 @@
             <div class="collapse navbar-collapse" id="navigation-index">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php">
+                        <a href="<?php echo $base_url; ?>">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="press.php">
+                        <a href="<?php echo $base_url; ?>press">
                             Press
                         </a>
                     </li>
                     <li>
-                        <a href="payment.php">
+                        <a href="<?php echo $base_url; ?>payment">
                             Payment
                         </a>
                     </li>
                     <li>
-                        <a href="faq.php">
+                        <a href="<?php echo $base_url; ?>faq">
                             FAQ
                         </a>
                     </li>
                     <li>
-                        <a href="register.php">
+                        <a href="<?php echo $base_url; ?>register">
                             Signup
                         </a>
                     </li>
