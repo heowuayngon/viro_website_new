@@ -2,9 +2,8 @@
 <script>
     var md = new MobileDetect(window.navigator.userAgent);
     if (md.os() == 'AndroidOS') {
-        window.location.replace("https://play.google.com/store/apps/details?id=com.viro.viroapp.com");
-    }
-    if (md.is('iPhone')) {
-        window.location.replace("https://itunes.apple.com/az/app/viro-app-viral-your-product/id1130347000?mt=8");
+        window.location = "https://play.google.com/store/apps/details?id=com.viro.viroapp.com";
+    }else{
+        window.location = "https://appsto.re/sg/4N7xdb.i";
     }
 </script>
