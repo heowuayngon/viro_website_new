@@ -1,4 +1,4 @@
-<?php $base_url =  "http://" . $_SERVER['SERVER_NAME'] . "/vus/viro_website_new/ViroNew/"; ?>
+<?php $base_url =  "https://" . $_SERVER['SERVER_NAME'] . "/"; ?>
 <!doctype html>
 <html lang="en">
 <head>
