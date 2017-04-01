@@ -221,22 +221,5 @@ if (isset($_POST["code"])) {
                 </div>
             </section>
         </div>
-        <script src="js/blur.js"></script>
-        <script src="js/chosen.jquery.min.js"></script>
-        <script src="js/jquery.fancybox.pack.js"></script>
-        <script src="js/jquery.scrollTo.js"></script>
-        <script src="js/easing.js"></script>
-        <script src="js/prettyCheckbox.js"></script>
-        <!--<script src="js/infinitescroll.js"></script>-->
-        <!--<script src="js/TweenMax.min.js"></script>-->
-        <!--<script src="js/jquery.scrollmagic.min.js"></script>-->
-        <!--<script src="js/jquery.knob.js"></script>-->
-        <!--<script src="js/jquery.fileupload.js"></script>-->
-        <!--<script src="js/upload.js"></script>-->
-        <!--<script src="js/range-slider.js"></script>-->
-        <!--<script src="js/jquery.downCount.js"></script>-->
-        <script src="js/animations.js"></script>
-        <script src="js/yappie.js"></script>
-        <script src="js/my-custom.js"></script>
-    </body>
-</html>
+ 
+<?php require_once './footer.php'; ?>

@@ -137,7 +137,11 @@ if (isset($_POST["code"])) {
                         </div>
                         <div class="col-xs-6">
                             <div class="viro_block1_text">
-                                <p>Viro Job, Internship, Part-Time, Full-Time App is a platform where you can <i>earn</i> money by <i>sharing</i> your job offer to their social media network.<br/>
+
+                                <p>
+                                    Download <i style="font-weight: 500">Viroapp</i> for latest <i>News</i>, <i>Events</i>, <i>Promotions</i> and <i>Services</i>.<br>
+                                    You can post and share <i>your business'</i> news, events, promotion and services into our categories.
+                                    <br/>
                                     <?php if((string)@$user_name != ''):?>
                                         <span style="font-weight: bold; font-size: 12px">Your Affiliate Sponsor: <?php echo @$user_name?></span>
                                     <?php endif;?>
@@ -170,5 +174,5 @@ if (isset($_POST["code"])) {
             })
         </script>
     <?php endif;?>
-    </body>
-</html>
+
+<?php require_once '../footer.php'; ?>

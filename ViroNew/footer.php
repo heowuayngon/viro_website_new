@@ -117,23 +117,23 @@
                     <div class="row">
                         <div class="col-xs-6">
                             <div class="app-showcase wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-                                <img src="assets/img/iphone.png" class="img-responsive" alt="">
+                                <img src="<?php echo $base_url; ?>assets/img/iphone.png" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="col-xs-6">
                             <div class="block wow fadeInRight animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInRight;">
                                 <div class="content_getapp">
-                                    <p>Download <b>Viroapp</b> for latest <i>News</i>, <i>Events</i>, <i>Promotions</i> and <i>Services</i>.<br>
+                                    <p>Download <i style="font-weight: 500">Viroapp</i> for latest <i>News</i>, <i>Events</i>, <i>Promotions</i> and <i>Services</i>.<br>
                                         You can post and share your business' <i>news</i>, <i>events</i>, <i>promotion and services</i> into our categories. <br>
                                     </p>
                                 </div>
                                 <br>
                                 <div class="download-btn">
                                     <a href="https://play.google.com/store/apps/details?id=com.viro.viroapp.com" target="_blank" class="andriod">
-                                        <img src="assets/img/andriod-button.png" alt="" class="img-responsive">
+                                        <img src="<?php echo $base_url; ?>assets/img/andriod-button.png" alt="" class="img-responsive">
                                     </a>
                                     <a href="https://itunes.apple.com/az/app/viro-app-viral-your-product/id1130347000?mt=8" target="_blank" class="apple">
-                                        <img src="assets/img/apple-button.png" alt="" class="img-responsive">
+                                        <img src="<?php echo $base_url; ?>assets/img/apple-button.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
 
